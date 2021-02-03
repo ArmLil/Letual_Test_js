@@ -1,4 +1,4 @@
-let dataJson = {
+const dataJson = {
   displayedName: {
     displayedName: {
       value: ["Профиль маячковый ПВХ 10 мм L3м"],
@@ -75,6 +75,6 @@ console.log(
   getShopNumbersWithStocks(dataJson)
 );
 console.log(
-  "максимальное количество товара и номер уго магазина: ",
+  "максимальное количество товара и номер его магазина: ",
   getMaxStock(dataJson)
 );
